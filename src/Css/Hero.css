@@ -1,5 +1,5 @@
 .background {
-    background-image: url(D:/ALL_PROJECTS/Hanish_Portfolio/my-portfolio/src/assets/bgIMG.png);
+    background-image: url('../assets/bgIMG.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

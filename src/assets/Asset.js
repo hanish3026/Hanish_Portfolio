@@ -17,6 +17,7 @@ import atom from './atom.png'
 import bootstrap from './bootstrap.png'
 import spring from './spring.png'
 import python from './python.png'
+import bg from './bgIMG.png'
 const Assets={
     background:background,
     fullstack:fullstack,
@@ -37,5 +38,6 @@ const Assets={
     bootstrap:bootstrap,
     spring:spring,
     python:python,
+    bg:bg,
 }
 export default Assets;
