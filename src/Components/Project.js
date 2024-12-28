@@ -58,7 +58,7 @@ const Project = () => {
                         {/* My Portfolio Link */}
                         <div className="col">
                             <div data-aos="fade-left">
-                                <a href="https://hanish-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
+                                <a href="https://portfolio-hanish.netlify.app/" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
                                     <div className="card custom-card">
                                         <img className="card-img-top" src={Assets.laps} alt="Loading" />
                                         <h4 className="card-title text-center">My Portfolio</h4>

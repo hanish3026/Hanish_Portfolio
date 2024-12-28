@@ -27,8 +27,6 @@ const Hero = () => {
         });
         
     }, []);
-    
-    console.log(displayedText)
     return (
 <div>
 
