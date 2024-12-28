@@ -1,0 +1,48 @@
+/* Container for skills */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure wrapping for responsiveness */
+    justify-content: center;
+    gap: 20px; /* Spacing between items */
+    margin-top: 30px;
+}
+
+/* Individual skill items */
+.skill-item {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row with spacing */
+    max-width: calc(25% - 20px);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Skill images */
+.skill-img {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .skill-item {
+        flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+        max-width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .skill-item {
+        flex: 1 1 calc(25% - 10px); /* 4 items per row on small screens */
+        max-width: calc(25% - 10px);
+    }
+
+    .skill-img {
+        max-width: 50px; /* Slightly smaller images for small screens */
+    }
+}

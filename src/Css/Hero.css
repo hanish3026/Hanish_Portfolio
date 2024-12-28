@@ -1,0 +1,43 @@
+.background {
+    background-image: url(D:/ALL_PROJECTS/Hanish_Portfolio/my-portfolio/src/assets/bgIMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: #3a0ca3;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .images {
+    max-width: 100%; /* Ensures the image scales for smaller screens */
+    height: auto; /* Maintains the aspect ratio */
+    z-index: 2;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .background {
+      height: auto; /* Allow the section to adjust height dynamically */
+      padding: 2rem 0; /* Add padding for better spacing */
+    }
+  
+    .row {
+      flex-direction: column; /* Stack columns vertically */
+    }
+  
+    .col-md-6 {
+      margin-bottom: 2rem; /* Add spacing between stacked elements */
+    }
+  
+    .images {
+      max-width: 80%; /* Slightly reduce image size on smaller screens */
+    }
+  }
+  

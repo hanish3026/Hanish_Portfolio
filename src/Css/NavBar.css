@@ -1,0 +1,25 @@
+.Title{
+    color:#3a0ca3;
+}
+.Title:hover{
+    color:#11bcff;
+}
+.tranform:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.tranform{
+    color:#ffffff;
+}
+.backgroundNavBar{
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Creates a subtle shadow */
+    z-index: 10; /* Ensures the navbar stays on top */
+}
+.special-nav-item .nav-link {
+    color: #3a0ca3 !important; 
+}
+
+.special-nav-item .nav-link:hover {
+    color: #11bcff !important; /* Optional: change color on hover */
+}
