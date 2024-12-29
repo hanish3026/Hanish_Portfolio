@@ -18,6 +18,9 @@ import bootstrap from './bootstrap.png'
 import spring from './spring.png'
 import python from './python.png'
 import bg from './bgIMG.png'
+import postman from './postmans.png'
+import exclipse from './eclipse.png'
+import lodstash from './lodstash.png'
 const Assets={
     background:background,
     fullstack:fullstack,
@@ -39,5 +42,8 @@ const Assets={
     spring:spring,
     python:python,
     bg:bg,
+    postman:postman,
+    exclipse:exclipse,
+    lodstash:lodstash,
 }
 export default Assets;

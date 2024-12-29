@@ -8,7 +8,7 @@ const Skill = () => {
             <section id="skills" className="py-5">
                 <div className="container">
                     <div data-aos="fade-up">
-                        <h2 className="weights text-center my-md-5">Skills</h2>
+                        <h2 className="weight text-center my-md-5">Skills & <span id='fonts'>Tolls</span></h2>
                     </div>
                     <div data-aos="zoom-in">
                     <div className="skills-container">
@@ -38,6 +38,15 @@ const Skill = () => {
                         </div>
                         <div className="skill-item">
                             <img src={Assets.python} className="skill-img" alt="Python" />
+                        </div>
+                        <div className="skill-item">
+                            <img src={Assets.postman} className="skill-img" alt="postman" />
+                        </div>
+                        <div className="skill-item">
+                            <img src={Assets.exclipse} className="skill-img" alt="eclipse" />
+                        </div>
+                        <div className="skill-item">
+                            <img src={Assets.lodstash} className="skill-img" alt="lodstash" />
                         </div>
                     </div>
                     </div>
