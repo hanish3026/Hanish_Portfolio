@@ -3,9 +3,9 @@ import '../Css/About.css'
 import Assets from '../assets/Asset';
 
 const About = () => {
-    function handleClick() {
-        window.location.href = "/HANISH_E_Resume_2024-12-25.pdf";
-    }
+    // function handleClick() {
+    //     window.location.href = "/HANISH_E_Resume_2024-12-25.pdf";
+    // }
     return (
         <div>
             <section id="about" className="py-5">
@@ -31,7 +31,7 @@ const About = () => {
                                     and contributing to impactful projects aligned with business objectives.
                                 </p>
 
-                                <button className="btn btn-lg button text-white" onClick={handleClick}>Resume</button>
+                                {/* <button className="btn btn-lg button text-white" onClick={handleClick}>Resume</button> */}
                             </div>
                         </div>
                     </div>

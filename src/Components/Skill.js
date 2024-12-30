@@ -8,7 +8,7 @@ const Skill = () => {
             <section id="skills" className="py-5">
                 <div className="container">
                     <div data-aos="fade-up">
-                        <h2 className="weight text-center my-md-5">Skills & <span id='fonts'>Tolls</span></h2>
+                        <h2 className="weight text-center my-md-5">Skills & <span id='fonts'>Tools</span></h2>
                     </div>
                     <div data-aos="zoom-in">
                     <div className="skills-container">
