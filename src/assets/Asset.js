@@ -21,7 +21,6 @@ import bg from './bgIMG.png'
 import postman from './postmans.png'
 import exclipse from './eclipse.png'
 import lodstash from './lodstash.png'
-import logo from './logo.png'
 const Assets={
     background:background,
     fullstack:fullstack,
@@ -45,7 +44,6 @@ const Assets={
     bg:bg,
     postman:postman,
     exclipse:exclipse,
-    lodstash:lodstash,
-    logo:logo,
+    lodstash:lodstash
 }
 export default Assets;

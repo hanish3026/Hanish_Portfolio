@@ -3,9 +3,9 @@ import '../Css/About.css'
 import Assets from '../assets/Asset';
 
 const About = () => {
-    // function handleClick() {
-    //     window.location.href = "/HANISH_E_Resume_2024-12-25.pdf";
-    // }
+    function handleClick() {
+        window.location.href = "/HANISH_E_Resume_2024-12-25.pdf";
+    }
     return (
         <div>
             <section id="about" className="py-5">
@@ -31,19 +31,18 @@ const About = () => {
                                     and contributing to impactful projects aligned with business objectives.
                                 </p>
 
-                                {/* <button className="btn btn-lg button text-white" onClick={handleClick}>Resume</button> */}
+                                <button className="btn btn-lg button text-white" onClick={handleClick}>Resume</button>
                             </div>
                         </div>
                     </div>
-                    <div className="row my-5">
+                    <div className="row my-5 wrap">
                         <div className="col">
                             <div data-aos="flip-left">
                                 <div className="card custom-card">
                                     <img className="card-img-top" src={Assets.fullstack} alt="Loading" />
                                     <h4 className="card-title text-center">Fullstack Developer</h4>
                                     <div className="card-body">
-                                        A Java Full Stack Developer is skilled in both frontend and backend technologies, proficient in Java, Spring Boot, HTML, CSS, JavaScript, and database management, delivering scalable web solutions.
-                                    </div>
+                                    A Java Full Stack Developer proficiently uses Java, Spring Boot, HTML, CSS, JavaScript, and databases to build scalable, efficient, and user-friendly web applications from front to back.                                    </div>
                                 </div>
                             </div>
                         </div>

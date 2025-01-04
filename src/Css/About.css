@@ -75,6 +75,10 @@
 .custom-card:hover {
     transform: scale(1.05);
 }
+/* .wrap:hover > *:not(:hover) {
+    filter: blur(2px);
+    opacity: 0.5;
+} */
 
 
 /* Responsive Adjustments */
