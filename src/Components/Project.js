@@ -43,12 +43,12 @@ const Project = () => {
                         {/* Employee Management System Link */}
                         <div className="col">
                             <div data-aos="fade-right">
-                                <a href="https://github.com/hanish3026/Employee_Management_CRUD" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
+                                <a href="https://github.com/hanish3026/Student-Centric-Library-Management-System-" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
                                     <div className="card custom-card">
                                         <img className="card-img-top" src={Assets.emp} alt="Loading" />
-                                        <h4 className="card-title text-center">Employee Management System</h4>
+                                        <h4 className="card-title text-center">Student Centric LMS</h4>
                                         <div className="card-body">
-                                            System for managing employee information.
+                                            System for managing Library information.
                                         </div>
                                     </div>
                                 </a>
