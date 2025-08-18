@@ -50,7 +50,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div className = "container">
             <section id="contact" className="py-5">
                 <div className="row py-5 mb-5 text-light">
                     <p className="weight text-center mb-md-5">
