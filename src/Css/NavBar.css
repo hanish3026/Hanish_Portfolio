@@ -1,25 +1,70 @@
-.Title{
-    color:#3a0ca3;
-}
-.Title:hover{
-    color:#11bcff;
-}
-.tranform:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-.tranform{
-    color:#ffffff;
-}
-.backgroundNavBar{
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Creates a subtle shadow */
-    z-index: 10; /* Ensures the navbar stays on top */
-}
-.special-nav-item .nav-link {
-    color: #3a0ca3 !important; 
+/* ── NavBar ── */
+.navbar-dark-glass {
+    background: rgba(8, 8, 26, 0.75) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(139, 92, 246, 0.12);
+    transition: background 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+    padding: 1rem 0;
+    z-index: 1000;
 }
 
-.special-nav-item .nav-link:hover {
-    color: #11bcff !important; /* Optional: change color on hover */
+.navbar-dark-glass.scrolled {
+    background: rgba(8, 8, 26, 0.95) !important;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.5);
+    border-color: rgba(139, 92, 246, 0.25);
+    padding: 0.65rem 0;
+}
+
+.nav-brand {
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #a78bfa, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+}
+
+.nav-brand:hover {
+    opacity: 0.85;
+}
+
+.navbar-nav .nav-link {
+    color: #94a3b8 !important;
+    font-size: 0.88rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 0.4rem 1rem !important;
+    border-radius: 50px;
+    transition: color 0.2s ease, background 0.2s ease;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #e2e8f0 !important;
+    background: rgba(139, 92, 246, 0.12);
+}
+
+.navbar-toggler {
+    border: 1px solid rgba(139, 92, 246, 0.3) !important;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28167, 139, 250, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Collapse menu on mobile */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: rgba(8, 8, 26, 0.97);
+        border: 1px solid rgba(139, 92, 246, 0.15);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-top: 0.75rem;
+    }
 }
