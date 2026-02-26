@@ -50,43 +50,49 @@ const Contact = () => {
     };
 
     return (
-        <div className="container">
-            <section id="contact" className="py-5">
-                <div className="row py-5 mb-5 text-light">
-                    <p className="weight text-center mb-md-5">
-                        Take A Coffee & <span id="font">Chat</span> With <span id="font">Me</span>
+        <div className="container" id="contact">
+            <section className="py-5">
+                <div className="row mb-5 text-light" style={{ paddingTop: '3rem' }}>
+                    <p className="contact-heading text-center mb-md-5" data-aos="fade-up">
+                        Take A Coffee & <span>Chat</span> With <span>Me</span>
                     </p>
-                    <div className="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
-                        <div className="contact-info-container text-center p-4">
-                            <div data-aos="fade-right">
-                                <div className="info-card mb-4">
-                                    <i className="fa-solid fa-house fa-2xl info-icon"></i>
-                                    <p className="info-text">Chennai</p>
+                    <div className="col-lg-5 col-md-12 d-flex justify-content-center align-items-start mb-5 mb-lg-0">
+                        <div className="contact-info-container w-100 p-lg-4">
+                            <div data-aos="fade-right" data-aos-delay="100">
+                                <div className="info-card">
+                                    <div className="info-icon"><i className="fa-solid fa-house"></i></div>
+                                    <div>
+                                        <p className="info-text">Chennai, India</p>
+                                        <small className="info-subtext">Open to remote work</small>
+                                    </div>
                                 </div>
                             </div>
-                            <div data-aos="fade-right">
-                                <div className="info-card mb-4">
-                                    <a href="https://wa.me/6379966434" target="_blank" rel="noopener noreferrer" className="text-decoration-none">
-                                        <i className="fa-solid fa-phone fa-2xl info-icon"></i>
-                                        <p className="info-text">6379966434</p>
-                                        <small className="info-subtext">9am to 6pm</small>
+                            <div data-aos="fade-right" data-aos-delay="200">
+                                <div className="info-card">
+                                    <a href="https://wa.me/6379966434" target="_blank" rel="noopener noreferrer">
+                                        <div className="info-icon"><i className="fa-solid fa-phone"></i></div>
+                                        <div>
+                                            <p className="info-text">+91 6379966434</p>
+                                            <small className="info-subtext">9am to 6pm IST</small>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
-                            <div data-aos="fade-right">
-                                <div className="info-card mb-4">
-                                    <a href="mailto:hanishchan@gmail.com" className="text-decoration-none">
-                                        <i className="fa-solid fa-envelope fa-2xl info-icon"></i>
-                                        <p className="info-text">hanishchan@gmail.com</p>
-                                        <small className="info-subtext">Send us your query anytime!</small>
+                            <div data-aos="fade-right" data-aos-delay="300">
+                                <div className="info-card">
+                                    <a href="mailto:hanishchan@gmail.com">
+                                        <div className="info-icon"><i className="fa-solid fa-envelope"></i></div>
+                                        <div>
+                                            <p className="info-text">hanishchan@gmail.com</p>
+                                            <small className="info-subtext">Send me a query anytime!</small>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div className="col-lg-6 col-md-12">
+                    <div className="col-lg-7 col-md-12">
                         <div data-aos="fade-left">
                             <div className="container">
                                 <div className="contact-card w-100 shadow-lg border-0">
@@ -155,9 +161,10 @@ const Contact = () => {
                                                     required
                                                 />
                                             </div>
-                                            <div className="d-grid">
-                                                <button type="submit" className="btn btn-primary btn-lg">
+                                            <div className="d-grid mt-4">
+                                                <button type="submit" className="btn btn-primary d-flex align-items-center justify-content-center gap-2">
                                                     Send Message
+                                                    <i className="fa-solid fa-paper-plane"></i>
                                                 </button>
                                             </div>
                                         </form>
